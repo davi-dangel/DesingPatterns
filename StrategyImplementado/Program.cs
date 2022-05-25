@@ -1,1 +1,5 @@
-﻿// Strategy Pattern Implementado
+﻿/*
+ * Strategy Pattern Implementado
+ * 
+ */
+
