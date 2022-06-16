@@ -14,11 +14,7 @@ namespace StrategyImplementado
             Nome = nome;
             IngredientePrincipal = ingredientePrincipal;
             Peso = peso;
-        }
-
-        public void SetPreco(double preco)
-        {
-            Preco = preco;
+            Preco = IngredientePrincipal.CalculaPreco(this);
         }
     }
 }
